@@ -46,7 +46,6 @@
                 android:paddingBottom="8dp"
                 android:text="Material Buttons"
                 android:textAppearance="?textAppearanceHeadline6"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -166,8 +165,7 @@
                 android:contentDescription="@string/appbar_scrolling_view_behavior"
                 android:text="Click On Me!"
                 app:icon="@drawable/ic_euro_symbol"
-                android:fontFamily="@font/roboto_medium"
-                android:letterSpacing="0.0"
+                android:fontFamily="@font/scout_bold"
                 app:layout_constraintStart_toEndOf="@id/fab_button"
                 app:layout_constraintTop_toBottomOf="@id/secondary_normal_button_with_icon" />
 
@@ -224,7 +222,6 @@
                 android:paddingBottom="8dp"
                 android:text="Material Text Input Layouts"
                 android:textAppearance="?textAppearanceHeadline6"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/material_switch_button" />
 
@@ -276,7 +273,6 @@
                 android:paddingBottom="8dp"
                 android:text="Material Card Views"
                 android:textAppearance="?textAppearanceHeadline6"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/outlined_text_input_layout" />
 
@@ -394,7 +390,6 @@
                 android:paddingBottom="8dp"
                 android:text="Material Text Types"
                 android:textAppearance="?textAppearanceHeadline6"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/material_tab_layout" />
 
@@ -422,7 +417,6 @@
                 android:textAppearance="?textAppearanceHeadline2"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/headline1" />
 
@@ -436,7 +430,6 @@
                 android:textAppearance="?textAppearanceHeadline3"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/headline2" />
 
@@ -464,7 +457,6 @@
                 android:textAppearance="?textAppearanceHeadline5"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/headline4" />
 
@@ -478,7 +470,6 @@
                 android:textAppearance="?textAppearanceHeadline6"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/headline5" />
 
@@ -506,7 +497,6 @@
                 android:textAppearance="?textAppearanceSubtitle2"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/subtitle1" />
 
@@ -520,7 +510,6 @@
                 android:textAppearance="?textAppearanceBody1"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/subtitle2" />
 
@@ -534,7 +523,6 @@
                 android:textAppearance="?textAppearanceBody2"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/body1" />
 
@@ -548,7 +536,6 @@
                 android:textAppearance="?textAppearanceButton"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/body2" />
 
@@ -562,7 +549,6 @@
                 android:textAppearance="?textAppearanceCaption"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/button" />
 
@@ -576,7 +562,6 @@
                 android:textAppearance="?textAppearanceOverline"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/caption" />
 
