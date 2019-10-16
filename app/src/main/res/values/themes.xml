@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!--Material color attributes-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:fontFamily">@font/roboto_font</item>
+        <item name="android:statusBarColor">?colorSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="drawerArrowStyle">@style/GlobalDrawerArrowStyle</item>
+        <item name="floatingActionButtonStyle">@style/GlobalFabButtonStyle</item>
+        <item name="editTextStyle">@style/GlobalEditTextStyle</item>
+        <item name="toolbarStyle">@style/GlobalToolbarStyle</item>
+        <item name="materialCardViewStyle">@style/GlobalMaterialCardViewStyle</item>
+
+        <!--Remap legacy AppCompat attributes to MaterialComponent attributes-->
+        <item name="colorPrimaryDark">?colorPrimaryVariant</item>
+        <item name="colorAccent">?colorSecondary</item>
+
+        <!--Material shape attributes-->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.AutoScout24Theme.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.AutoScout24Theme.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.AutoScout24Theme.LargeComponent</item>
+
+        <!--Material type attributes-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.AutoScout24Theme.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.AutoScout24Theme.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.AutoScout24Theme.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.AutoScout24Theme.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.AutoScout24Theme.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.AutoScout24Theme.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.AutoScout24Theme.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.AutoScout24Theme.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.AutoScout24Theme.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.AutoScout24Theme.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.AutoScout24Theme.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.AutoScout24Theme.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.AutoScout24Theme.Overline</item>
+
+    </style>
+
+</resources>
