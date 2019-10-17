@@ -15,7 +15,6 @@
     </style>
 
     <style name="PrimaryTextButtonMaterialButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
-        <item name="android:fontFamily">@font/scout_bold</item>
         <item name="backgroundTint">@android:color/transparent</item>
         <item name="android:textColor">@color/colorOnPrimaryOutlinedButton</item>
         <item name="rippleColor">@color/primary_outlined_button_ripple_color</item>
@@ -23,7 +22,6 @@
 =    </style>
 
     <style name="SecondaryTextButtonMaterialButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
-        <item name="android:fontFamily">@font/scout_bold</item>
         <item name="backgroundTint">@android:color/transparent</item>
         <item name="android:textColor">@color/colorOnSecondaryOutlinedButton</item>
         <item name="rippleColor">@color/secondary_outlined_button_ripple_color</item>
@@ -31,7 +29,6 @@
 =    </style>
 
     <style name="PrimaryOutlinedMaterialButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="android:fontFamily">@font/scout_bold</item>
         <item name="strokeColor">@color/colorOnPrimaryOutlinedButton</item>
         <item name="backgroundTint">@color/colorPrimaryOutlinedButton</item>
         <item name="android:textColor">@color/colorOnPrimaryOutlinedButton</item>
@@ -41,7 +38,6 @@
 =    </style>
 
     <style name="SecondaryOutlinedMaterialButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="android:fontFamily">@font/scout_bold</item>
         <item name="strokeColor">@color/colorOnSecondaryOutlinedButton</item>
         <item name="backgroundTint">@color/colorSecondaryOutlinedButton</item>
         <item name="android:textColor">@color/colorOnSecondaryOutlinedButton</item>
@@ -51,7 +47,6 @@
     </style>
 
     <style name="PrimaryMaterialButtonStyle" parent="Widget.MaterialComponents.Button">
-        <item name="android:fontFamily">@font/scout_bold</item>
         <item name="backgroundTint">@color/colorPrimaryButton</item>
         <item name="android:textColor">@color/colorOnPrimaryButton</item>
         <item name="rippleColor">@color/raised_button_ripple_color</item>
@@ -60,7 +55,6 @@
     </style>
 
     <style name="SecondaryMaterialButtonStyle" parent="Widget.MaterialComponents.Button">
-        <item name="android:fontFamily">@font/scout_bold</item>
         <item name="backgroundTint">@color/colorSecondaryButton</item>
         <item name="android:textColor">@color/colorOnSecondaryButton</item>
         <item name="rippleColor">@color/raised_button_ripple_color</item>
@@ -69,8 +63,6 @@
     </style>
 
     <style name="GlobalFabButtonStyle" parent="Widget.MaterialComponents.FloatingActionButton">
-        <item name="android:fontFamily">@font/scout_bold</item>
-        <item name="backgroundTint">@color/colorPrimary</item>
         <item name="android:textAppearance">?textAppearanceButton</item>
     </style>
 
@@ -89,11 +81,11 @@
     </style>
 
     <style name="GlobalMaterialCardViewStyle" parent="Widget.MaterialComponents.CardView">
-        <item name="cardCornerRadius">2dp</item>
+        <item name="cardCornerRadius">4dp</item>
     </style>
 
     <style name="StrokedMaterialCardViewStyle" parent="GlobalMaterialCardViewStyle">
-        <item name="cardCornerRadius">2dp</item>
+        <item name="cardCornerRadius">4dp</item>
         <item name="strokeWidth">2dp</item>
         <item name="strokeColor">@color/colorSecondary</item>
     </style>
